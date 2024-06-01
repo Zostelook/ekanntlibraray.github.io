@@ -3,24 +3,289 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Propogation</title><link rel="stylesheet" href="index.css">
-
+    <title>MY Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-queries.css">
 </head>
 <body>
+    <section class="top-banner ">
+        <div class="container " >
+            <div class="small-bold-text banner-text">Greeting for All Ekaant's Librarian !! &#x270C </div>
+        </div>
+    </section>
 
-    <div id="parentDiv">
-       <p>This is parent div</p>
-       <div id="childDiv">
-           <p>This is child div</p>
-       </div>
+    <nav>
+        <div class="container main-nav flex">
+            <a class="company-logo">
+                <!-- <img src="https://cdn.kibrispdr.org/data/915/www-logo-png-18.png" alt="company-logo"> -->
+                <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf4ejso6PzMGUuJU88PIO5wzZ4sYpcQ3WCgiJlDYFNYw&s" alt="company-logo"> -->
+                <h3 class="company-name">EkaantLibrary</h3>
+            </a>
+
+            <div class="nav-links" id="nav-links">
+                <ul class="flex">
+                    <li><a href="#"class='hover-link'>Products</a></li>
+                    <li><a href="#"class='hover-link'>Customer</a></li>
+                    <li><a href="#"class='hover-link'>Pricing</a></li>
+                    <li><a href="#"class='hover-link'>Resource</a></li>
+                    <li><a href="#"class='hover-link secondary-button' >Sign in</a></li>
+                    <li><a href="#"class='hover-link primary-button'>Sign up</a></li>
+                </ul>
+            </div>
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </nav>
+
+    <!-- This is the hero section -->
+    <header>
+        <div class="container header-section flex">
+            <div class="header-left">
+                <h1>Study Confidently</h1>
+                <p> As you prepare for your competitive exam, remember that the journey you are on is as important as the destination. Each study session, each problem solved, and each concept mastered is a step closer to your dreams</p>
+                <a href="#" class="primary-button get-started-button">Get Started</a>
+            </div>
+            <div class="header-right">
+                <img src="./Image/assets-1-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="company-section">
+        <div class="container"></div>
+    </section>
+
+  
+
+    <section class="company-section">
+        <div class="container">
+            <div class="small-bold-text company-header">Indias's best company which provides best training</div>
+            <div class="logos flex">
+                <img class="logo" src="./Image/logo-1-removebg-preview.png" alt="">
+                <img class="logo" src="./Image/logo-2-removebg-preview.png" alt="">
+                <img class="logo" src="./Image/logo-3-removebg-preview.png" alt="">
+                <img class="logo" src="./Image/logo-4-removebg-preview.png" alt="">
+                <img class="logo" src="./Image/logo-5-removebg-preview.png" alt="">
+                <img class="logo" src="./Image/logo-6-removebg-preview.png" alt="">
+                <img class="logo" src="./Image/logo-7-removebg-preview.png" alt="">
+                <img class="logo" src="./Image/logo-8-removebg-preview.png" alt="">
+                <img class="logo" src="./Image/logo-9-removebg-preview.png" alt="">
+            
+            </div>
+        </div>
+       
+    </section>
+
+    <section class="feature-section">
+        <div class="container">
+            <div class="feature-header">
+                <h2 class="feature-heading-text">Utility features of Ekanntians</h2>
+              <a href="#" class="secondary-button" >See all features <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+
+            <div class="feature-section-area flex">
+                <div class="feature-card flex" >
+                    <h1><i class="fa-solid fa-closed-captioning"></i></h1>
+                    <h3>Cafeteria</h3>
+                    <p>Join us at our cafeteria for a delightful selection of food and beverages to fuel your day</p>
+                    <a href="#" class="secondary-button" >Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+
+                <div class="feature-card flex" >
+                    <h1><i class="fa-solid fa-door-open"></i></h1>
+                    <h3>Interaction Room</h3>
+                    <p>Explore our interaction room for a dynamic and collaborative space perfect for meetings and brainstorming sessions</p>
+                    <a href="#" class="secondary-button" >Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+
+                <div class="feature-card flex" >
+                    <h1><i class="fa-solid fa-building-columns"></i></h1>
+                    <h3>Study Resource</h3>
+                    <p>Access a wealth of knowledge with our comprehensive study resources, available for all your learning needs</p>
+                    <a href="#" class="secondary-button" >Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+
+                <div class="feature-card flex" >
+                    <h1><i class="fa-solid fa-user-group"></i></h1>
+                    <h3>Community</h3>
+                    <p>Join our vibrant community to connect, collaborate, and grow together</p>
+                    <a href="#" class="secondary-button" >Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+
+                <div class="feature-card flex" >
+                    <h1><i class="fa-solid fa-circle-radiation"></i></h1>
+                    <h3>Culture</h3>
+                    <p>Immerse yourself in our rich and inclusive culture that celebrates diversity and creativity!</p>
+                    <a href="#" class="secondary-button" >Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+
+                <div class="feature-card flex" >
+                    <h1><i class="fa-solid fa-wifi"></i></h1>
+                    <h3>Internet</h3>
+                    <p>Stay connected with our high-speed internet access, available throughout the library</p>
+                    <a href="#" class="secondary-button" >Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- big feature section -->
+    <section class="big-feature-section">
+        <div class="container flex big-feature-container">
+             <div class="feature-img">
+                <img src="./Image/bg-5-removebg-preview.png" alt="">
+             </div>
+
+             <div class="feature-dese flex" >
+                <h4>Competitive Environment</h4>
+                <h3>Dear Aspiring Achiever</h3>
+                <p>In the pursuit of your goals, every moment of effort and every ounce of determination count. As you prepare for your competitive exam, remember that the journey you are on is as important as the destination</p>
+             </div>
+        </div>
+    </section>
+    
+    <section class="big-feature-section">
+        <div class="container flex big-feature-container big-feature-container-2">
+             
+
+             <div class="feature-dese flex" >
+                <h4>Believe System for</h4>
+                <h3>Top Achievers</h3>
+                <p>Believe in your abilities, for you are capable of achieving greatness. Your perseverance, dedication, and hard work will pave the way to your success. Stay focused, stay positive, and never lose sight of the vision that drives you.</p>
+             </div>
+
+             <div class="feature-img">
+                <img src="./Image/bf-2-removebg-preview.png" alt="">
+             </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container flex big-feature-container">
+             <div class="feature-img">
+                <img src="./Image/bf-3-removebg-preview.png" alt="">
+             </div>
+
+             <div class="feature-dese flex" >
+                <h4>A step for success</h4>
+                <h3>Stay with consistency</h3>
+                <p>Stay focused, stay positive, and never lose sight of the vision that drives you. This exam is but one chapter in your story, and with your relentless spirit, you are destined to turn it into a triumphant tale. Keep pushing forward, for your future self will thank you for the effort and sacrifices you make today.</p>
+             </div>
+        </div>
+    </section>
+
+    <section class="examples-section">
+        <div class="container">
+            <div class="example-header flex">
+                <h2 class="example-heading-text">See Endless Possibility</h2>
+              <a href="#" class="secondary-button" >See more example <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+
+            <div class="examples-area flex">
+                <a href="" class="examples-card">
+                    <h3 class="card-text">Our library offers comfortable and well-organized seating arrangements</h3>
+                </a>
+
+                <a href="" class="examples-card">
+                    <h3 class="card-text">Our library maintains a pristine and orderly environment for all users.</h3>
+                </a>
+
+                <a href="" class="examples-card">
+                    <h3 class="card-text">Our library offers a serene atmosphere with a natural ambiance</h3>
+                </a>
+
+                <a href="" class="examples-card">
+                    <h3 class="card-text">Our library features spacious pathways, ensuring easy navigation and accessibility</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container flex cta-section-container">
+            <h2>Start learning today</h2>
+            <p>Take the assignment regularly improvement</p>
+            <a href="#" class="primary-button">Get started</a>
+        </div>
+    </section>
+
+    <!-- <footer>
+        <div class="container" flex>
+            <a href="#"><h3 class="company-name">EkanntLibrary</h3></a>
+        </div>
+
+        <div class="link-column">
+            <h4>Product</h4>
+            <a href="#" class="hover-link">Overview</a>
+            <a href="#" class="hover-link">Pracing</a>
+            <a href="#" class="hover-link">Ekannt Hub</a>
+            <a href="#" class="hover-link">coustumer page</a>
+            <a href="#" class="hover-link"></a>
+        </div>
+
+        <div class="link-column">
+            <h4>Product</h4>
+            <a href="#" class="hover-link"></a>
+            <a href="#" class="hover-link"></a>
+            <a href="#" class="hover-link"></a>
+            <a href="#" class="hover-link"></a>
+            <a href="#" class="hover-link"></a>
+        </div>
+
+        <div class="link-column">
+            <h4>Product</h4>
+            <a href="#" class="hover-link"></a>
+            <a href="#" class="hover-link"></a>
+            <a href="#" class="hover-link"></a>
+            <a href="#" class="hover-link"></a>
+            <a href="#" class="hover-link"></a>
+        </div>
+    </footer> -->
+    <footer class="footer">
+        <div class="footer-container flex">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>C-14 Capital Homes Basement</p>
+                <p>Opp. Neelam Vihar Society Gate</p>
+                <p>Sector-14 Kaushambi,Ghaziabad 201010 (UP)</p>
+                <p>Email: <a href="mailto:ekaantlibrary@gmail.com">ekaantlibrary@gmail.com</a> </p>
+                <p>Phone: 8368711547</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links flex">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="quick-links">
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Customer</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Resource</a></li>
+                </ul>
+            </div>
+        </div>
         
+    </footer>
+    <div class="footer-bottom flex">
+        <p>&copy; 2024 EkanntLibrary. All rights reserved.</p>
     </div>
+    
 
-    <div class="origin">
-        <h1>This is h1</h1>
-        <h2>This is h2</h2>
-        <h3>This is h3</h3>
-    </div>
-   <script src="index.js"></script>
+
+    
+    <script src="https://kit.fontawesome.com/d2d284abae.js" crossorigin="anonymous"></script>
+    <script>
+        const toggleButton = document.getElementById('nav-toggle')
+        const navLinks = document.getElementById('nav-links');
+
+        toggleButton.addEventListener('click',()=>{
+            navLinks.classList.toggle('active')
+        })
+    </script>
 </body>
 </html>
